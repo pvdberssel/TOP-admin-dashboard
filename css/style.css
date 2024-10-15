@@ -1,3 +1,57 @@
-h1{
-    color:red;
+
+:root{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 3fr 3fr;
+    height: 100%;
+}
+
+
+.sidebar{
+    background-color:blue;
+    grid-column: 1/2;
+    grid-row:1/5;
+}
+
+.header{
+    background-color:red;
+    grid-column: 2/4;
+    grid-row:1/2;
+}
+
+.welcome{
+    background-color:green;
+    grid-column: 2/4;
+    grid-row:2/3;
+}
+
+.projects{
+    background-color:orange;
+    grid-column: 2/3;
+    grid-row:3/5;
+}
+
+.announcements{
+    background-color:rgb(102, 227, 231);
+    grid-column: 3/4;
+    grid-row:3/4;
+}
+
+.trending{
+    background-color:rgb(216, 102, 231);
+    grid-column: 3/4;
+    grid-row:4/5;
 }
