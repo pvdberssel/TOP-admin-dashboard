@@ -23,6 +23,23 @@ html {
     height: 100%;
 }
 
+.message-container{
+    display:grid;
+    
+    background-color: var(--pearl);
+    margin-right:15px
+
+  
+}
+
+.profile-container{
+    display:grid;
+    
+    background-color: var(--pearl);
+    margin-right:15px
+
+}
+
 
 .sidebar{
     background-color:var(--munsell);
