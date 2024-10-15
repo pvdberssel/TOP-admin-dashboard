@@ -4,6 +4,10 @@
     margin:0px;
     box-sizing: border-box;
 
+    --munsell: #00c9a7;
+    --cambridge-blue: #9DBBAE;
+    --vanilla: #b39cd0;
+    --pearl: #fbeaff;
 }
 
 body,
@@ -21,37 +25,37 @@ html {
 
 
 .sidebar{
-    background-color:blue;
+    background-color:var(--munsell);
     grid-column: 1/2;
     grid-row:1/5;
 }
 
 .header{
-    background-color:red;
+    background-color:var(--pearl);
     grid-column: 2/4;
     grid-row:1/2;
 }
 
 .welcome{
-    background-color:green;
+    background-color:var(--pearl);
     grid-column: 2/4;
     grid-row:2/3;
 }
 
 .projects{
-    background-color:orange;
+    background-color:var(--vanilla);
     grid-column: 2/3;
     grid-row:3/5;
 }
 
 .announcements{
-    background-color:rgb(102, 227, 231);
+    background-color:var(--vanilla);
     grid-column: 3/4;
     grid-row:3/4;
 }
 
 .trending{
-    background-color:rgb(216, 102, 231);
+    background-color:var(--vanilla);
     grid-column: 3/4;
     grid-row:4/5;
 }
