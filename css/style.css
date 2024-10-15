@@ -8,6 +8,7 @@
     --cambridge-blue: #9DBBAE;
     --vanilla: #b39cd0;
     --pearl: #fbeaff;
+    --detail: #ff8066;
 }
 
 body,
@@ -21,6 +22,10 @@ html {
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr 3fr 3fr;
     height: 100%;
+}
+
+.icon{
+    height:1.3em;
 }
 
 .message-container{
@@ -75,4 +80,18 @@ html {
     background-color:var(--vanilla);
     grid-column: 3/4;
     grid-row:4/5;
+}
+
+.trending-profile{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:flex;
+    gap:5px;
 }
