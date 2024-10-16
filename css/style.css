@@ -20,8 +20,8 @@ html {
 
 .container{
     display:grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr 3fr 3fr;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 3fr 3fr;
     height: 100%;
 }
 
@@ -46,7 +46,10 @@ html {
     display:grid;
     
     background-color: var(--pearl);
-    margin-right:15px
+    margin-right:15px;
+    box-shadow: 4px 4px 3px -3px rgb(0,0,0,0.4);
+    z-index: 10;
+    border-radius:15px;
 
 }
 
@@ -96,7 +99,7 @@ html {
     display:grid;
     gap:15px;
     margin:10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     
 }
 
@@ -173,3 +176,5 @@ li{
     padding-top:5px;
     padding-bottom:5px;
 }
+
+
