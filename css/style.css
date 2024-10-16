@@ -113,6 +113,9 @@ html {
 
 .card-text{
     margin:5px;
+    width: 175px;
+    height: 175px;
+    overflow:hidden;
 }
 
 .icon-container{
