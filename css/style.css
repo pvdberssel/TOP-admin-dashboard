@@ -120,6 +120,11 @@ html {
     justify-content: end;
     margin-right:30px;
     gap:30px;
+    margin-top:20px;
+}
+
+.icon:hover{
+    cursor:pointer;
 }
 
 .trending{
