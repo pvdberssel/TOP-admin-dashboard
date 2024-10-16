@@ -87,6 +87,41 @@ html {
     grid-row:3/4;
 }
 
+.projects-container{
+    display:grid;
+    gap:15px;
+    margin:10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    
+}
+
+.card-container{
+    background-color: var(--pearl);
+    box-shadow: 0 4px 3px -3px rgb(0,0,0,0.4);
+    z-index:6;
+    border-left: solid;
+    border-left-width: 6px;
+    border-left-color: var(--detail);
+    padding:5px;
+    border-radius:5px;
+}
+
+.card-title{
+    margin-left:5px;
+    font-size: 24px;
+}
+
+.card-text{
+    margin:5px;
+}
+
+.icon-container{
+    display:flex;
+    justify-content: end;
+    margin-right:30px;
+    gap:30px;
+}
+
 .trending{
     background-color:var(--vanilla);
     grid-column: 3/4;
