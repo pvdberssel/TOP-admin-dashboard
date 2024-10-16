@@ -38,6 +38,7 @@ html {
     border-radius: 5px;
     box-shadow: 4px 4px 3px -3px rgb(0,0,0,0.4);
     z-index: 10;
+    margin:10px;
 
   
 }
@@ -50,6 +51,7 @@ html {
     box-shadow: 4px 4px 3px -3px rgb(0,0,0,0.4);
     z-index: 10;
     border-radius:15px;
+    margin:10px;
 
 }
 
@@ -87,12 +89,14 @@ html {
     background-color:var(--vanilla);
     grid-column: 2/3;
     grid-row:3/5;
+    padding:10px;
 }
 
 .announcements{
     background-color:var(--vanilla);
     grid-column: 3/4;
     grid-row:3/4;
+    padding:10px;
 }
 
 .projects-container{
@@ -142,6 +146,7 @@ html {
     background-color:var(--vanilla);
     grid-column: 3/4;
     grid-row:4/5;
+    padding:10px;
 }
 
 .trending-profile{
@@ -175,6 +180,11 @@ li{
     border-bottom:1px solid rgb(0,0,0,0.4);
     padding-top:5px;
     padding-bottom:5px;
+}
+
+h2{
+    margin:0px;
+    padding:0px;
 }
 
 
