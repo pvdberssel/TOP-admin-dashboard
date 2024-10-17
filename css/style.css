@@ -4,12 +4,12 @@
     margin:0px;
     box-sizing: border-box;
 
-    --munsell: #606c38;
-    --munsell-light: #7a8653;
+    --munsell: #eb920e;
+    --munsell-light: #e7af5a;
     --cambridge-blue: #9DBBAE;
     --vanilla:  #84a98c;
     --pearl:  #cad2c5;
-    --detail: #606c38;
+    --detail: #eb920e;
 
     --size-icon: 32px;
     line-height: 1.2;
@@ -24,7 +24,7 @@ html {
 .container{
     display:grid;
     grid-template-columns: 0.5fr 3fr 0.5fr;
-    grid-template-rows: 0.5fr 1fr 3fr 3fr;
+    grid-template-rows: 1fr 2fr 6fr 6fr;
     height: 100%;
 }
 
@@ -42,7 +42,8 @@ html {
     border-radius: 5px;
     box-shadow: 4px 4px 3px -3px rgb(0,0,0,0.4);
     z-index: 10;
-    margin:10px;
+    margin:15px;
+    padding-bottom:15px;
 
   
 }
@@ -99,7 +100,7 @@ li>span{
     grid-row:1/2;
     display:grid;
     grid-template-columns: 3fr 1fr;
-    height:80px;
+    height:50px;
     justify-content: center;
     padding:20px;
 }
@@ -145,6 +146,7 @@ li>span{
     grid-column: 2/4;
     grid-row:2/3;
     display:grid;
+    padding-bottom: 5px;
     grid-template-columns: 5fr 2fr ;
     align-items: center;
     box-shadow: 0 4px 3px -3px rgb(0,0,0,0.4);
@@ -164,13 +166,14 @@ li>span{
     width:7em;
     height:2.5em;
     font-size:18px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .button-container>button:hover{
  cursor: pointer;
  background-color: var(--munsell-light);
+ color:grey;
 }
 
 .projects{
@@ -178,6 +181,7 @@ li>span{
     grid-column: 2/3;
     grid-row:3/5;
     padding:10px;
+    overflow: hidden; 
 }
 
 .announcements{
@@ -189,6 +193,7 @@ li>span{
 
 .projects-container{
     display:grid;
+    overflow: hidden; 
     gap:15px;
     margin:10px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
@@ -203,7 +208,9 @@ li>span{
     border-left-width: 6px;
     border-left-color: var(--detail);
     padding:5px;
+    width: 23em;
     border-radius:5px;
+    overflow: hidden; 
 }
 .title-message{
     padding-top:10px;
@@ -212,12 +219,15 @@ li>span{
 .card-title{
     margin-left:5px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .card-text{
-    margin:5px;
-    width: 175px;
-    height: 175px;
+    padding:5px;
+    margin:10px;
+    width: 18em;
+    height: 6em;
+    font-size:18px;
     overflow:hidden;
 }
 
