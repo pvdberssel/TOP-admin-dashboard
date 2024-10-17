@@ -205,7 +205,10 @@ li>span{
     padding:5px;
     border-radius:5px;
 }
-
+.title-message{
+    padding-top:10px;
+    font-weight: bold;
+}
 .card-title{
     margin-left:5px;
     font-size: 24px;
@@ -240,9 +243,7 @@ li>span{
     cursor: pointer;
 }
 
-.project-name{
-    color:red;
-}
+
 
 .trending-profile{
     display:flex;
