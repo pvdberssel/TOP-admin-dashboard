@@ -60,6 +60,8 @@ html {
     background-color:var(--munsell);
     grid-column: 1/2;
     grid-row:1/5;
+    z-index: 12;
+    box-shadow: 2px 0px 2px -1px rgb(0,0,0,0.4);
 }
 
 .header{
@@ -156,11 +158,14 @@ html {
 
 ul{
     list-style-type: none;
+    margin:10px;
+    padding: 0px;
 }
 
 li{
     display:flex;
     gap:5px;
+    padding:5px;
 }
 
 .message{
